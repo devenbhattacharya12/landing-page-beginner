@@ -1,0 +1,79 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section_one {
+    padding: 20px;
+  }
+  
+  .top_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* 20px break between header and the next section */
+  }
+  
+  .header-logo img {
+    max-width: 150px; /* Adjust size as necessary */
+    height: auto;
+  }
+  
+  .right-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Spacing between links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right-links a {
+    text-decoration: none;
+    color: #000; /* Adjust color */
+    font-weight: bold;
+  }
+  
+  .overview {
+    display: flex;
+    justify-content: space-between; /* Space between description and image area */
+    align-items: flex-start; /* Align items to the top */
+  }
+  
+  .description {
+    max-width: 50%; /* Take half the width for the description */
+  }
+  
+  .description h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .description button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .overview .image-placeholder {
+    width: 40%; /* Reserve space for the image */
+    height: auto;
+    max-width: 400px; /* Example size */
+    background-color: #e5e7eb; /* Placeholder background */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d1d5db;
+  }
+  
