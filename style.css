@@ -5,7 +5,11 @@ body {
   }
   
   .section_one {
-    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: beige;
+    padding-bottom: 50px;
+
   }
   
   .top_header {
@@ -24,7 +28,6 @@ body {
     list-style: none;
     display: flex;
     gap: 20px; /* Spacing between links */
-    margin: 0;
     padding: 0;
   }
   
@@ -35,9 +38,11 @@ body {
   }
   
   .overview {
-    display: flex;
-    justify-content: space-between; /* Space between description and image area */
-    align-items: flex-start; /* Align items to the top */
+    display: flex;              /* Use Flexbox for layout */
+    justify-content: space-between; /* Push elements to the edges */
+    align-items: center;        /* Optional: Align items vertically */
+    width: 100%;                /* Ensure full container width */
+
   }
   
   .description {
@@ -56,7 +61,7 @@ body {
   }
   
   .description button {
-    background-color: #3b82f6;
+    background-color: darkgreen;
     color: white;
     border: none;
     padding: 0.8rem 2rem;
@@ -66,14 +71,18 @@ body {
   }
   
   .overview .image-placeholder {
-    width: 40%; /* Reserve space for the image */
+    display: flex; /* Make the container a flexbox */
+    justify-content: flex-end; /* Align image horizontally to the right */
+    align-items: flex-end; /* Align image vertically to the bottom */
+    height: 100%; /* Ensure the div takes full height if needed */
+}
+
+
+
+  .overview .image-placeholder img {
+    width: 60%; /* Reserve space for the image */
     height: auto;
     max-width: 400px; /* Example size */
-    background-color: #e5e7eb; /* Placeholder background */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #d1d5db;
+  
   }
   
